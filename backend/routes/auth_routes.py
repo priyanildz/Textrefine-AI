@@ -4,7 +4,8 @@ import os
 
 auth = Blueprint('auth', __name__)
 
-DATA_FILE = "data/user_data.csv"
+# DATA_FILE = "data/user_data.csv"
+DATA_FILE = os.path.join(os.getcwd(), "data/user_data.csv")
 
 
 # ✅ Ensure file exists
