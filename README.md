@@ -1,89 +1,89 @@
 # ✨ TextRefine AI
 
 AI-based communication skill improver that helps users enhance their writing with:
-- ✅ Paraphrasing
-- ✅ Grammar Correction
-- ✅ Spelling Correction
-- ✅ Sentiment Analysis
+- Paraphrasing
+- Grammar Correction
+- Spelling Correction
+- Sentiment Analysis
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🧠 AI-powered text analysis  
-- ✍️ Grammar & paraphrasing suggestions  
-- 🔍 Sentiment detection  
-- 👤 User authentication (Login/Register)  
-- 🌐 Clean and modern UI  
+- AI-powered text analysis  
+- Grammar & paraphrasing suggestions  
+- Sentiment detection  
+- User authentication (Login/Register)  
+- Clean and modern UI  
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 🏠 Home Page
+### Home Page
 <p align="center">
   <img src="assets/home.png" width="800">
 </p>
 
 ---
 
-### ℹ️ About Section
+### ℹAbout Section
 <p align="center">
   <img src="assets/about.png" width="800">
 </p>
 
 ---
 
-### 🗂️ Communication Fields
+### Communication Fields
 <p align="center">
   <img src="assets/fields.png" width="800">
 </p>
 
 ---
 
-### ❓ Help Section
+### Help Section
 <p align="center">
   <img src="assets/help.png" width="800">
 </p>
 
 ---
 
-### ⭐ User Reviews
+### User Reviews
 <p align="center">
   <img src="assets/review.png" width="800">
 </p>
 
 ---
 
-### 📞 Contact Page
+### Contact Page
 <p align="center">
   <img src="assets/contact.png" width="800">
 </p>
 
 ---
 
-### 🔐 Register Page
+### Register Page
 <p align="center">
   <img src="assets/register.png" width="500">
 </p>
 
 ---
 
-### 🔑 Login Page
+### Login Page
 <p align="center">
   <img src="assets/login.png" width="500">
 </p>
 
 ---
 
-### 🧠 Text Analysis Result
+### Text Analysis Result
 <p align="center">
   <img src="assets/analysis.png" width="800">
 </p>
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Frontend: HTML, CSS  
 - Backend: Flask (Python)  
@@ -92,7 +92,7 @@ AI-based communication skill improver that helps users enhance their writing wit
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/your-username/TextRefine-AI.git
