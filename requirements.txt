@@ -2,3 +2,4 @@ Flask
 textblob
 pyspellchecker
 torch
+gunicorn
