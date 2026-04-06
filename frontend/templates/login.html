@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAMWAD | Login</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+
+  <body class="signin-body">
+    <div class="wrapper">
+      <div class="form-wrapper sign-in">
+        <form method="POST">
+          <h2>Login</h2>
+
+          {% if error %}
+          <p style="color: red">{{ error }}</p>
+          {% endif %}
+
+          <div class="input-group">
+            <input type="text" name="username" required />
+            <label>Username</label>
+          </div>
+
+          <div class="input-group">
+            <input type="password" name="password" required />
+            <label>Password</label>
+          </div>
+
+          <button type="submit" class="button">Login</button>
+
+          <div class="signUp-link">
+            <p>
+              Don't have an account?
+              <a href="{{ url_for('auth.register') }}">Register</a>
+            </p>
+            <p style="text-align: center; margin-top: 10px">
+              <a href="{{ url_for('main.home') }}">⬅ Back to Home</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
