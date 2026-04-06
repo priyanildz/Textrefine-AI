@@ -1,4 +1,4 @@
-# ✨ TextRefine AI
+# TextRefine AI
 
 AI-based communication skill improver that helps users enhance their writing with:
 - Paraphrasing
